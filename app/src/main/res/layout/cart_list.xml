@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <androidx.cardview.widget.CardView
+        android:layout_marginTop="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="200dp">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_marginLeft="5dp"
+                android:id="@+id/cart_des"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="des"
+                android:textSize="20dp"
+                android:layout_gravity="left"/>
+
+            <TextView
+                android:layout_marginLeft="10dp"
+                android:id="@+id/cart_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="name"
+                android:layout_gravity="left|center"
+                android:textSize="20dp" />
+
+            <TextView
+                android:layout_marginLeft="10dp"
+                android:id="@+id/cart_price"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="price"
+                android:textSize="20dp"
+                android:layout_gravity="left|bottom"/>
+
+            <ImageView
+                android:id="@+id/cart_img"
+                android:layout_width="100dp"
+                android:layout_height="150dp"
+                android:layout_gravity="center|right"
+                android:layout_marginRight="20dp"/>
+
+        </FrameLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/txt_continue"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="continue"
+                android:textSize="20dp"
+                android:textColor="@color/black"
+                android:layout_gravity="left|center"
+                android:layout_marginLeft="50dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="remove item"
+                android:textSize="20dp"
+                android:textColor="@color/black"
+                android:background="@color/white"
+                android:layout_gravity="right|center"
+                android:layout_marginRight="50dp"/>
+
+        </FrameLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>

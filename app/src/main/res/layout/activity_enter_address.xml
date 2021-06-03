@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    tools:context=".EnterAddress">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#0099FF">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="user details"
+            android:layout_gravity="center"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:textColor="@color/white"/>
+
+    </FrameLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Appartment no."
+                android:layout_marginLeft="60dp"
+                android:gravity="center"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                android:layout_marginTop="20dp"
+                android:textColor="@color/black"
+                />
+
+            <EditText
+                android:id="@+id/apt"
+                android:layout_width="300dp"
+                android:layout_height="50dp"
+                android:hint="Enter Apartment no."
+                android:layout_gravity="center"
+                android:textSize="20dp"
+                android:padding="6dp"
+                android:gravity="center"
+                android:background="@drawable/edittext"
+                android:layout_marginTop="5dp"
+                android:textColor="@color/black"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Street"
+                android:layout_marginLeft="60dp"
+                android:gravity="center"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                android:layout_marginTop="20dp"
+                android:textColor="@color/black"
+                />
+
+            <EditText
+                android:id="@+id/street"
+                android:layout_width="300dp"
+                android:layout_height="50dp"
+                android:hint="Street"
+                android:layout_gravity="center"
+                android:textSize="20dp"
+                android:padding="6dp"
+                android:gravity="center"
+                android:background="@drawable/edittext"
+                android:layout_marginTop="5dp"
+                android:textColor="@color/black"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Landmark (optional)"
+                android:layout_marginLeft="60dp"
+                android:gravity="center"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                android:layout_marginTop="20dp"
+                android:textColor="@color/black"
+                />
+
+
+            <EditText
+                android:id="@+id/land"
+                android:layout_width="300dp"
+                android:layout_height="50dp"
+                android:hint="Landmark (optional)"
+                android:layout_gravity="center"
+                android:textSize="20dp"
+                android:padding="6dp"
+                android:gravity="center"
+                android:background="@drawable/edittext"
+                android:layout_marginTop="5dp"
+                android:textColor="@color/black"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="City"
+                android:layout_marginLeft="60dp"
+                android:gravity="center"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                android:layout_marginTop="20dp"
+                android:textColor="@color/black"
+                />
+
+
+            <EditText
+                android:id="@+id/city"
+                android:layout_width="300dp"
+                android:layout_height="50dp"
+                android:hint="City"
+                android:layout_gravity="center"
+                android:textSize="20dp"
+                android:padding="6dp"
+                android:gravity="center"
+                android:background="@drawable/edittext"
+                android:layout_marginTop="5dp"
+                android:textColor="@color/black"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="State"
+                android:layout_marginLeft="60dp"
+                android:gravity="center"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                android:layout_marginTop="20dp"
+                android:textColor="@color/black"
+                />
+
+
+            <EditText
+                android:id="@+id/state"
+                android:layout_width="300dp"
+                android:layout_height="50dp"
+                android:hint="State"
+                android:layout_gravity="center"
+                android:textSize="20dp"
+                android:padding="6dp"
+                android:gravity="center"
+                android:background="@drawable/edittext"
+                android:layout_marginTop="5dp"
+                android:textColor="@color/black"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Pin Code"
+                android:layout_marginLeft="60dp"
+                android:gravity="center"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                android:layout_marginTop="20dp"
+                android:textColor="@color/black"
+                />
+
+            <EditText
+                android:id="@+id/pinCode"
+                android:layout_width="300dp"
+                android:layout_height="50dp"
+                android:hint="Pin Code"
+                android:layout_gravity="center"
+                android:textSize="20dp"
+                android:padding="6dp"
+                android:inputType="number"
+                android:gravity="center"
+                android:background="@drawable/edittext"
+                android:layout_marginTop="5dp"
+                android:textColor="@color/black"
+                />
+
+            <Button
+                android:id="@+id/btn_next"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:text="Next"
+                android:textAllCaps="false"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:textSize="20dp"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/edittext"
+                />
+
+            <ProgressBar
+                android:visibility="invisible"
+                android:id="@+id/progressBar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="30dp"/>
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>
